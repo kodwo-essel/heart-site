@@ -41,8 +41,11 @@ export default function AlmsServices() {
                 scale: [1, 1.01, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 3, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 3, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="bg-black py-8 rounded-2xl text-white relative overflow-hidden h-full cursor-pointer"
             >
@@ -52,8 +55,7 @@ export default function AlmsServices() {
                   whileHover={{ scale: 1.2, rotateZ: 5 }}
                   whileInView={{ rotateZ: [0, 5, -5, 0] }}
                   transition={{
-                    hover: { duration: 0.2 },
-                    inView: { duration: 4, repeat: Infinity }
+                    duration: 0.2
                   }}
                   className="text-4xl font-bold opacity-60"
                 >
@@ -94,8 +96,11 @@ export default function AlmsServices() {
                 scale: [1, 1.02, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 3.5, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 3.5, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="rounded-2xl overflow-hidden h-full cursor-pointer"
             >
@@ -122,8 +127,11 @@ export default function AlmsServices() {
                 scale: [1, 1.02, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 4, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 4, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="rounded-2xl overflow-hidden lg:order-first h-full cursor-pointer"
             >
@@ -144,8 +152,11 @@ export default function AlmsServices() {
                 scale: [1, 1.01, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 3.2, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 3.2, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="bg-black py-8 rounded-2xl text-white relative overflow-hidden h-full cursor-pointer"
             >
@@ -155,8 +166,7 @@ export default function AlmsServices() {
                   whileHover={{ scale: 1.2, rotateZ: -5 }}
                   whileInView={{ rotateZ: [0, -5, 5, 0] }}
                   transition={{
-                    hover: { duration: 0.2 },
-                    inView: { duration: 4.5, repeat: Infinity }
+                    duration: 0.2
                   }}
                   className="text-4xl font-bold opacity-60"
                 >
@@ -210,8 +220,11 @@ export default function AlmsServices() {
                 scale: [1, 1.015, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 2.8, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 2.8, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="bg-black py-8 rounded-2xl text-white relative overflow-hidden h-full cursor-pointer"
             >
@@ -221,8 +234,7 @@ export default function AlmsServices() {
                   whileHover={{ scale: 1.2, rotateZ: 5 }}
                   whileInView={{ rotateZ: [0, 6, -6, 0] }}
                   transition={{
-                    hover: { duration: 0.2 },
-                    inView: { duration: 3.8, repeat: Infinity }
+                    duration: 0.2
                   }}
                   className="text-4xl font-bold opacity-60"
                 >
@@ -262,8 +274,11 @@ export default function AlmsServices() {
                 scale: [1, 1.025, 1]
               }}
               transition={{ 
-                hover: { type: "spring", stiffness: 300 },
-                inView: { duration: 3.7, repeat: Infinity, repeatType: "reverse" }
+                type: "spring", 
+                stiffness: 300,
+                duration: 3.7, 
+                repeat: Infinity, 
+                repeatType: "reverse" 
               }}
               className="rounded-2xl overflow-hidden h-full cursor-pointer"
             >
